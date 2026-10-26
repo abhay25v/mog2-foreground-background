@@ -57,7 +57,7 @@ mask (`none`).
 
 MOG2 is an adaptive, pixel-wise Gaussian-mixture background model. It updates its per-pixel appearance model over time and marks observations that do not fit the background as foreground. The current defaults are history 500, variance threshold 25, automatic learning rate, and shadow detection enabled. Only MOG2 mask value 255 is treated as predicted foreground.
 
-Ground-truth labels 170 and 255 count as foreground; 0 counts as background. Shadow label 50, unknown labels such as 85, and pixels outside the ROI are excluded. The program reports precision, recall, and F1 per frame and pooled across all evaluated pixels. See [MOG2_VIVA_NOTES.md](MOG2_VIVA_NOTES.md) for the statistical model, parameter discussion, references, and presentation Q&A. See [PROJECT_REPORT_TEMPLATE.md](PROJECT_REPORT_TEMPLATE.md) for the blank report outline.
+Ground-truth labels 170 and 255 count as foreground; 0 counts as background. Shadow label 50, unknown labels such as 85, and pixels outside the ROI are excluded. The program reports precision, recall, and F1 per frame and pooled across all evaluated pixels.
 
 ## Scope and contribution
 
